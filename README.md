@@ -48,7 +48,7 @@ El programa debe calcular y mostrar una tabla de amortización, indicando para c
 El cálculo se basa en la siguiente fórmula de cuota fija (método francés):
 
 <p align="center">
-        <img src="https://latex.codecogs.com/png.latex?C%20-%20%5Cfrac%7BP%20%5Ctimes%20R%7D%7B1%20-%20(1%20%2B%20r)%5E%7B-n%7D%7D" alt="Ecuación" style="background-color:white;">
+        <img src="https://latex.codecogs.com/png.latex?{\color{Yellow}C%20-%20%5Cfrac%7BP%20%5Ctimes%20R%7D%7B1%20-%20(1%20%2B%20r)%5E%7B-n%7D%7D" alt="Ecuación" style="background-color:white;">
 </p>
 
 Donde:
@@ -76,7 +76,7 @@ El programa debe calcular y mostrar el crecimiento de la inversión año tras a�
 #### 📚 Fórmula del Interés Compuesto
 
 <p align="center">
-        <img src="https://latex.codecogs.com/png.latex?A%20%3D%20P%20%5Ctimes%20%5Cleft(1%20%2B%20%5Cfrac%7Br%7D%7Bn%7D%5Cright)%5E%7Bn%20%5Ctimes%20t%7D" style="background-color:white;">
+        <img src="https://latex.codecogs.com/png.latex?{\color{Yellow}A%20%3D%20P%20%5Ctimes%20%5Cleft(1%20%2B%20%5Cfrac%7Br%7D%7Bn%7D%5Cright)%5E%7Bn%20%5Ctimes%20t%7D" style="background-color:white;">
 </p>
 
 Donde:
@@ -100,7 +100,7 @@ El programa debe calcular y mostrar la evolución del saldo mes a mes, considera
 - Cada mes se suma el depósito al saldo de la cuenta.
 - Luego, el saldo total genera interés mensual, según la fórmula:
 <p align="center">
-        <img src="https://latex.codecogs.com/png.latex?Interes\%20Mensual\%20=%20\frac{TasaAnual}{12}%20\times%20Saldo\%20Actual" style="background-color:white;">
+        <img src="https://latex.codecogs.com/png.latex?{\color{Yellow}Interes\%20Mensual\%20=%20\frac{TasaAnual}{12}%20\times%20Saldo\%20Actual" style="background-color:white;">
 </p>
 
 El programa imprimirá una tabla con:
