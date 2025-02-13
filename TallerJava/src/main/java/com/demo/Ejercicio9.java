@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Ejercicio9 {
     public static void main(String[] args) {
-
         try (Scanner sc = new Scanner(System.in)) {
+            // Solicitar datos al usuario
             System.out.print("Ingrese el monto del préstamo: ");
             double montoP = sc.nextDouble();
 
@@ -15,14 +15,17 @@ public class Ejercicio9 {
             System.out.print("Ingrese el plazo del préstamo (en años): ");
             int plazoAnios = sc.nextInt();
 
+            // Cálculo de operaciones de guia
             double tasaInteresMensual = (tasaInteresAnual / 100) / 12;
             int numeroPagos = plazoAnios * 12;
 
-            double cuotaMensual = (montoP * tasaInteresMensual) /
+            double cuotaMensual;
+
+            cuotaMensual = (montoP * tasaInteresMensual) /
                     (1 - Math.pow(1 + tasaInteresMensual, -numeroPagos));
 
             System.out.printf("%-6s %-15s %-15s %-10s %-10s %-15s%n",
-                    "Cuota", "Saldo Inicial", "Cuota Mensual", "Interés", "Capital", "Saldo Pendiente");
+                    "Cuota", "Saldo Inicial", "Cuota Mensual", "Interés", "Capital", "Saldo");
             System.out.println("-------------------------------------------------------------------------------");
 
             double saldoPendiente = montoP;
@@ -36,9 +39,6 @@ public class Ejercicio9 {
                 System.out.printf("%-6d %-15.2f %-15.2f %-10.2f %-10.2f %-15.2f%n",
                         cuota, saldoInicial, cuotaMensual, interesPagado, capitalPagado, saldoPendiente);
             }
-
-            sc.close();
         }
-
     }
 }
