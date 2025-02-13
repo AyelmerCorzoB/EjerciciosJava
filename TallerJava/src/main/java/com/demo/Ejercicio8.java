@@ -12,7 +12,7 @@ public class Ejercicio8 {
             // Ejemplo para ingresar
             // Doña Uzeada de Ribera Maldonado de Bracamonte y Anaya era baja, rechoncha,
             // abigotada.1234567890aeiou este texto tiene 100 caracteres
-            System.out.print("Ingrese los índices start y end separados por un espacio: ");
+            System.out.print("Ingrese los índices start y end separados por un espacio (0 a 100): ");
             int start = sc.nextInt();
             int end = sc.nextInt();
 
@@ -26,7 +26,7 @@ public class Ejercicio8 {
             if (start >= 0 && end <= cadena.length() && start < end) {
                 System.out.println("Subcadena: " + cadena.substring(start, end));
             } else {
-                System.out.println("Los índices start y end deben cumplir: 0 ≤ start < end ≤ longitud de la cadena.");
+                System.out.println("Los índices start y end deben cumplir: 0 a 100 la cadena que ingresaste no cumple con los requisitos.");
             }
         }
     }
