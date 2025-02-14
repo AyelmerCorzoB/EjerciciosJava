@@ -10,9 +10,9 @@ public class Ejercicio4 {
             numero = sc.nextInt();
         }
         if (numero %2 ==0) {
-            System.out.println("El numero:" + numero+ " Es Par");
+            System.out.println("El numero: " + numero+ " Es Par");
         } else {
-            System.out.println("El numero:" + numero+ " Es Impar");
+            System.out.println("El numero: " + numero+ " Es Impar");
         }
 
     }

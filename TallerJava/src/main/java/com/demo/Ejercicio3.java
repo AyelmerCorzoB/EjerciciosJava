@@ -14,9 +14,10 @@ public class Ejercicio3 {
             edad = sc.nextInt();
             sc.close();
         }
-
-        System.out.println("Su edad es: " + edad);
+        System.out.println("-----------------------------------");
         System.out.println("Su nombre es: " + nombre);
+        System.out.println("Su edad es: " + edad);
+        System.out.println("-----------------------------------");
 
     }
 }
