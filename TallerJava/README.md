@@ -1,7 +1,7 @@
 # Ejercicios Java
 
 ## Descripción
-Este repositorio contiene una colección de ejercicios de Java realizados durante el taller de Java.
+Esta seccion contiene una colección de ejercicios de Java realizados durante el taller de Java.
 
 Realizados por ***Ayelmer Corzo***.
 
